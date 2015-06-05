@@ -127,6 +127,19 @@ table { border-collapse: collapse; border-spacing: 0; }
     font-style: normal;
 }
 
+@font-face {
+    font-family: 'foxyregular';
+    src: url('../fonts/foxy-regular-webfont.eot');
+    src: url('../fonts/foxy-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/foxy-regular-webfont.woff') format('woff'),
+         url('../fonts/foxy-regular-webfont.ttf') format('truetype'),
+         url('../fonts/foxy-regular-webfont.svg#foxyregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
 /* Apply these base styles to all icons */
 [class^="icon-"]:before, [class*=" icon-"]:before {
     font-family: "casper-icons", "Open Sans", sans-serif;
