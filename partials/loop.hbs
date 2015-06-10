@@ -10,8 +10,8 @@
         <h2 class="post-title"><a href="{{url}}">{{{title}}}</a></h2>
     </header>
 
-    {{#if image}}<figure class="img-post"><a href="{{url}}">
-        <img src="{{image}}" alt=""></figure>{{/if}}
+    {{#if image}}<figure class="img-post">
+        <img src="{{image}}" alt=""><a href="{{url}}"></figure>{{/if}}
 
     <section class="post-excerpt">
         <p>{{excerpt words="86"}} <a class="read-more" href="{{url}}">&raquo;
