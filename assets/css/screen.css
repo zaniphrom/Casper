@@ -755,7 +755,7 @@ body.nav-opened .nav {
 /* Put a semi-opaque radial gradient behind the icon to make it more visible
    on photos which happen to have a light background. */
 .home-template .main-header:after {
-    display: block;
+    display: none;
     content: " ";
     width: 150px;
     height: 130px;
